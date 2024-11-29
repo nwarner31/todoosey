@@ -1,0 +1,61 @@
+.nav-container {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-bottom: var(--secondary) 2px solid;
+}
+
+.nav-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-body h3 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.nav-bar {
+    display: flex;
+    column-gap: 5px;
+}
+
+.nav-bar div {
+    border-right: var(--secondary) 2px solid;
+    padding-right: 3px;
+}
+.nav-body div:last-child {
+    border-right-width: 0;
+}
+
+.icon {
+    fill: var(--secondary);
+    margin-right: 5px;
+    height: 32px;
+    width: 32px;
+    margin-top: 10px;
+}
+
+.nav-link {
+    cursor: pointer;
+    height: 100%;
+    font-size: 24px;
+}
+
+.nav-link span {
+    position: relative;
+    top: -8px;
+}
+
+@media screen and (max-width: 650px) {
+    .nav-link span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-body h3 {
+        font-size: 32px;
+    }
+
+}

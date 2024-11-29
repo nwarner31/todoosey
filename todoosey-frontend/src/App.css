@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  margin-top: 0;
+  --primary: #dacc3e;
+  --secondary: #75b9be;
+  --bg: #FAF9F6;
+  --text: #000000;
+}
+
+.App[data-theme="dark"] {
+  --primary: #59562d;
+  --secondary: #7dafb3;
+  --bg: #262626;
+  --text: #FAF9F6;
 }
 
 .App-logo {
