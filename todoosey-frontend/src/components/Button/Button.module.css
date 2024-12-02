@@ -1,0 +1,29 @@
+.button-primary {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: var(--secondary) 3px solid;
+    transition: all .5s ;
+}
+.button-primary:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-color: var(--primary);
+    scale: 1.1;
+}
+
+.button-secondary {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: var(--primary) 3px solid;
+    transition: all .5s ;
+}
+.button-secondary:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-color: var(--secondary);
+    scale: 1.1;
+}
+
+.button-primary, .button-secondary {
+    cursor: pointer;
+}

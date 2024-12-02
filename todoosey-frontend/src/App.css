@@ -12,6 +12,8 @@
   --secondary: #7dafb3;
   --bg: #262626;
   --text: #FAF9F6;
+  min-height: 100vh;
+  background-color: var(--bg);
 }
 
 .App-logo {

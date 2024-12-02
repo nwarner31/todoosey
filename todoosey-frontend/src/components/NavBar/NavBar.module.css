@@ -57,5 +57,10 @@
     .nav-body h3 {
         font-size: 32px;
     }
+}
 
+@media screen and (max-width: 400px) {
+    .nav-body {
+        padding: 10px;
+    }
 }

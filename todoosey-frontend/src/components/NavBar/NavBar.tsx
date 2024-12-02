@@ -4,12 +4,12 @@ import { ReactComponent as DarkIcon } from "../../icons/dark-icon.svg";
 import { ReactComponent as LogoutIcon } from "../../icons/logout-icon.svg";
 import { ReactComponent as ProfileIcon } from "../../icons/profile-icon.svg";
 
-interface navBarProps {
+interface NavBarProps {
     isLoggedIn: boolean;
     isDarkMode: boolean;
     toggleTheme: () => void;
 }
-const NavBar = ({isLoggedIn, toggleTheme, isDarkMode}: navBarProps) => {
+const NavBar = ({isLoggedIn, toggleTheme, isDarkMode}: NavBarProps) => {
     return (
         <header className={classes['nav-container']}>
             <nav className={classes['nav-body']}>
