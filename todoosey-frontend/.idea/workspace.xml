@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fcd0151-1b48-44bf-8ebf-25f6f8329009" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/to-do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.module.css" afterDir="false" />
@@ -25,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -83,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732817287714</updated>
-      <workItem from="1732817288878" duration="17941000" />
+      <workItem from="1732817288878" duration="29280000" />
     </task>
     <servers />
   </component>

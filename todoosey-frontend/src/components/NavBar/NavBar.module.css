@@ -3,6 +3,10 @@
     color: var(--secondary);
     border-bottom: var(--secondary) 2px solid;
 }
+.nav-container a {
+    color: var(--secondary);
+    text-decoration: none;
+}
 
 .nav-body {
     display: flex;

@@ -24,6 +24,32 @@
     scale: 1.1;
 }
 
-.button-primary, .button-secondary {
+.button-bg {
+    background-color: var(--bg);
+    color: var(--text);
+    border: var(--text) 3px solid;
+    transition: all .5s ;
+}
+.button-bg:hover {
+    background-color: var(--text);
+    color: var(--bg);
+    border-color: var(--bg);
+    scale: 1.1;
+}
+
+.button-text {
+    background-color: var(--text);
+    color: var(--bg);
+    border: var(--bg) 3px solid;
+    transition: all .5s ;
+}
+.button-text:hover {
+    background-color: var(--bg);
+    color: var(--text);
+    border-color: var(--text);
+    scale: 1.1;
+}
+
+.button-primary, .button-secondary, .button-bg, .button-text {
     cursor: pointer;
 }

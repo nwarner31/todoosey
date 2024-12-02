@@ -3,7 +3,9 @@ import classes from "./Button.module.css";
 
 export enum ButtonTypes {
     Primary = "button-primary",
-    Secondary = "button-secondary"
+    Secondary = "button-secondary",
+    BG = "button-bg",
+    Text = 'button-text'
 }
 
 interface ButtonProps extends React.ComponentProps<'button'> {
@@ -13,7 +15,7 @@ interface ButtonProps extends React.ComponentProps<'button'> {
 
 const Button: React.FC<ButtonProps> = ({buttonType = ButtonTypes.Primary,label, ...rest}) => {
     return (
-        <div className={`${classes[buttonType]} ${rest.className}`}>{label}</div>
+        <button className={`${classes[buttonType]} ${rest.className}`}>{label}</button>
     );
 }
 
