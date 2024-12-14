@@ -15,7 +15,7 @@ interface ButtonProps extends React.ComponentProps<'button'> {
 
 const Button: React.FC<ButtonProps> = ({buttonType = ButtonTypes.Primary,label, ...rest}) => {
     return (
-        <button className={`${classes[buttonType]} ${rest.className}`}>{label}</button>
+        <button {...rest} className={`${classes[buttonType]} ${rest.className}`} >{label}</button>
     );
 }
 

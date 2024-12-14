@@ -5,17 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fcd0151-1b48-44bf-8ebf-25f6f8329009" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoosey-backend/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoosey-backend/routers/users/user.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoosey-backend/routers/users/user.router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoosey-backend/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoosey-backend/utility/error-handler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoosey-backend/utility/error-middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todoosey-backend/utility/http-exception.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Toast/Toast.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Toast/Toast.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/DashboardPage/DashboardPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/my-data-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todoosey-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todoosey-backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todoosey-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todoosey-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todoosey-backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todoosey-backend/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegisterPage/RegisterPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +42,7 @@
       <list>
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -36,27 +52,33 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2pUOekUa4rJidJ6S30FsmRjPhMI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\programming-projects\personal\full-stack\todoosey\todoosey-frontend\node_modules\typescript\lib" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\programming-projects\\personal\\full-stack\\todoosey\\todoosey-frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programming-projects\personal\full-stack\todoosey\todoosey-frontend" />
       <recent name="D:\programming-projects\personal\full-stack\todoosey\todoosey-frontend\src\icons" />
     </key>
   </component>
@@ -75,6 +97,14 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,7 +113,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732817287714</updated>
-      <workItem from="1732817288878" duration="29280000" />
+      <workItem from="1732817288878" duration="31252000" />
+      <workItem from="1734024736670" duration="633000" />
+      <workItem from="1734025565749" duration="330000" />
+      <workItem from="1734026212343" duration="27664000" />
     </task>
     <servers />
   </component>

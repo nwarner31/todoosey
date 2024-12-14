@@ -5,6 +5,8 @@
   --secondary: #75b9be;
   --bg: #FAF9F6;
   --text: #000000;
+  --red-bg: #fd5c63;
+  --red-text: #AA0000;
 }
 
 .App[data-theme="dark"] {
@@ -12,6 +14,8 @@
   --secondary: #7dafb3;
   --bg: #262626;
   --text: #FAF9F6;
+  --red-bg: #AA0000;
+  --red-text: #fd5c63;
   min-height: 100vh;
   background-color: var(--bg);
 }
